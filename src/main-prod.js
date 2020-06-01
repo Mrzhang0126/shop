@@ -3,7 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-import './plugins/elementui'
+// import './plugins/elementui'
 
 //导入字体图标
 import './assets/fonts/iconfont.css'
@@ -16,9 +16,9 @@ Vue.component('tree-table', TreeTable)
 // 导入富文本编辑器
 import VueQuillEditor from 'vue-quill-editor'
 // require styles 导入相对应的样式
-import 'quill/dist/quill.core.css'
-import 'quill/dist/quill.snow.css'
-import 'quill/dist/quill.bubble.css'
+// import 'quill/dist/quill.core.css'
+// import 'quill/dist/quill.snow.css'
+// import 'quill/dist/quill.bubble.css'
 
 Vue.use(VueQuillEditor, /* { default global options } */)
 
